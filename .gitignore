@@ -1,2 +1,3 @@
 venv
 simple_api/settings.py
+simple_api/__pycache__/
