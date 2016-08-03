@@ -6,7 +6,7 @@ class Book(models.Model):
 	author = models.CharField(max_length=200)
 	publication_date = models.DateTimeField()
 	publisher = models.CharField(max_length=200)
-	summary = models.CharField()
+	summary = models.CharField(max_length=1000)
 	price = models.DecimalField(max_digits=6, decimal_places=2)
 	purchase_link = models.URLField()
 	cover_image = models.URLField()
